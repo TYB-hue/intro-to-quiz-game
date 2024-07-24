@@ -1,0 +1,168 @@
+
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #252e43;
+    overflow: hidden;
+  
+}
+
+
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+ h3 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  p {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .lato-thin-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .lato-light-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .lato-bold-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .lato-black-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
+
+
+
+  .container{
+      background-color:  #b3d2dc;
+      border-radius: 15px;
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+      padding: 20px;
+      margin-top: 10%;
+      margin-bottom: 60%;
+      height: auto;
+      padding-bottom: 60px;
+  }
+  @media (min-width: 800px) {
+    .container{
+        margin-top: 3%;
+        margin-bottom: 60%;
+        height: auto;
+    }
+    button{
+        display: block;
+        width: 140px;
+        height: 40px;
+        font-size: large;
+        box-sizing: border-box;
+        padding-top: 10px;
+        font-weight: 650;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .welcome-image{
+       display: block;
+       max-width: 300px;
+     
+    }
+    .welcome-h1{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        text-align: center;
+        font-size: 70px;
+        margin-top: 27px;
+       margin-bottom: 0px;
+    }
+    .Test{
+        margin-bottom: 25px;
+    }
+
+  }
+  .welcome-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+  }
+  .welcome-h1{
+      text-align: center;
+      margin-left:10%;
+      margin-right:10%;
+      font-size: auto;
+      color: #262e41;
+      text-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  }
+  .Test{
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 650;
+    width: 100%;
+    size: 100px;
+  }
+  button{
+padding: 12px 17px;
+margin: 10px;
+display: inline-block;
+border: none;
+background-color: #252e43;
+color: #b3d2dc;
+border-radius: 8px;
+display: block;
+margin: auto;
+box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px; 
+cursor: pointer; 
+transition: 0.3s;}
+
+button:hover{
+background-color: #d0d0d0; 
+color: rgb(38, 59, 59);  
+}
+      
